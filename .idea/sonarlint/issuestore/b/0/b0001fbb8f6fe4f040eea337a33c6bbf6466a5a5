@@ -1,0 +1,5 @@
+
+nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(²Áßş8Ï£Â§•/
+nsquid:S1149("PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ß‚Ê´8ğ˜¢¨•/
+Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(òŸÚûÿÿÿÿ8‘¾ ©•/
+jsquid:S1192"GDefine a constant instead of duplicating this literal "FAILED" 3 times.(Ê¥ ïşÿÿÿÿ8ÇßÑ©•/

@@ -1,16 +1,14 @@
 package lexico_smallest_k_length_subsequence;
 
-import sun.jvm.hotspot.utilities.Assert;
-
 import java.util.Stack;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Driver {
 	public static void main(String[] args) {
-		Assert.that(findLexicographicallySmallestString("bbcaab", 3).equals("aab"), "FAILED");
-		Assert.that(findLexicographicallySmallestString("aabdaabc", 3).equals("aaa"), "FAILED");
-		Assert.that(findLexicographicallySmallestString("aabdaabcbbbbbbbbbbbbbbbbbbbbbcccccccccabababababcccccccaaabbbbbbbaaaa", 4).equals("aaaa"), "FAILED");
+		System.out.println(findLexicographicallySmallestString("bbcaab", 3).equals("aab"));
+		System.out.println(findLexicographicallySmallestString("aabdaabc", 3).equals("aaa"));
+		System.out.println(findLexicographicallySmallestString("aabdaabcbbbbbbbbbbbbbbbbbbbbbcccccccccabababababcccccccaaabbbbbbbaaaa", 4).equals("aaaa"));
 	}
 
 	private static String findLexicographicallySmallestString(String input, int requiredLength) {
